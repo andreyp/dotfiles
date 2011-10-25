@@ -6,6 +6,7 @@
 [alias]
 	incoming = "!git remote update -p; git log ..@{u}"
 	outgoing = log @{u}..
+    	graph = log --graph --oneline --all
 [color]
 	branch = auto
 	diff = always
